@@ -1,0 +1,18 @@
+{
+  "name": "Mazanoke",
+  "id": "mazanoke",
+  "available": true,
+  "short_desc": "Privacy-focused local image optimizer that runs entirely in your browser.",
+  "author": "civilblur",
+  "port": 3474,
+  "categories": ["utilities"],
+  "description": "Mazanoke is a self-hosted local image optimizer that runs entirely in your browser. It lets you compress and convert images without uploading them to any external service, works offline, and removes EXIF metadata for better privacy.",
+  "tipi_version": 1,
+  "version": "1.1.5",
+  "source": "https://github.com/civilblur/mazanoke",
+  "website": "https://mazanoke.com",
+  "exposable": true,
+  "dynamic_config": true,
+  "supported_architectures": ["amd64"],
+  "form_fields": []
+}
