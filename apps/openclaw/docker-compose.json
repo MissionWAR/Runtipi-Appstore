@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "$schema": "https://schemas.runtipi.io/dynamic-compose.json",
+  "services": [
+    {
+      "name": "openclaw",
+      "image": "coollabsio/openclaw:latest",
+      "isMain": true,
+      "internalPort": 8080,
+      "volumes": [
+        {
+          "hostPath": "${APP_DATA_DIR}/data/openclaw",
+          "containerPath": "/data"
+        }
+      ],
+      "environment": [
+        {
+          "name": "ANTHROPIC_API_KEY",
+          "value": "${ANTHROPIC_API_KEY}"
+        },
+        {
+          "name": "SETUP_PASSWORD",
+          "value": "${SETUP_PASSWORD}"
+        }
+      ]
+    }
+  ]
+}

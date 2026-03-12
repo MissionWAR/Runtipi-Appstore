@@ -1,0 +1,36 @@
+{
+  "name": "OpenClaw",
+  "min_tipi_version": "4.5.0",
+  "available": true,
+  "port": 18789,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "openclaw",
+  "description": "OpenClaw is a self-hosted personal AI assistant that can autonomously execute tasks across WhatsApp, Telegram, Slack, Discord and more.",
+  "tipi_version": 1,
+  "version": "latest",
+  "categories": ["ai"],
+  "short_desc": "Self-hosted personal AI agent with messaging integrations.",
+  "author": "coollabsio",
+  "source": "https://github.com/coollabsio/openclaw",
+  "website": "https://openclaw.ai",
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1741737600000,
+  "updated_at": 1741737600000,
+  "form_fields": [
+    {
+      "type": "password",
+      "label": "Anthropic API Key",
+      "hint": "Your Claude API key from console.anthropic.com",
+      "env_variable": "ANTHROPIC_API_KEY",
+      "required": false
+    },
+    {
+      "type": "password",
+      "label": "Setup Password",
+      "hint": "Password for the OpenClaw web dashboard",
+      "env_variable": "SETUP_PASSWORD",
+      "required": true
+    }
+  ]
+}
