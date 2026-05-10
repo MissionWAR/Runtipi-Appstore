@@ -4,7 +4,7 @@
   "services": [
     {
       "name": "mazanoke",
-      "image": "ghcr.io/civilblur/mazanoke:v1.1.5",
+      "image": "ghcr.io/civilblur/mazanoke:v1.1.6",
       "isMain": true,
       "internalPort": 80
     }
